@@ -1,0 +1,33 @@
+a) What is the difference between Internal Storage & External Storage?
+
+    Internal Storage: 
+             * Internal storage is also known as primary memory and is In built storage
+             * Internal storage is inside the system Memory, is used to store the operation system, system apps, and other app data
+             * Files saved to the internal storage are private to our application and other applications cannot access them  
+             * Internal storage refers to the media usually Hard Drives and is connected to the computer power supply.   
+    External Storage:
+             * External  storage is also known as secondary memory and is removable storage
+             * External storage is outside the computer enclosure known expandable memory to add to Internal Storage
+             * External storage can be used to save media files such as pictures, music, videos while most applications can not be installed on external storage.
+             * It depends on the compatibility of the memory card slot and to what extent is it supported
+
+b) For how long the data resides in the cache?
+     
+                  We can browse the internet through a web browser in android device or computer.Web browser stored a cache on our computer hard drive or phone storage.
+            Cache is a collection of web pages including the text, images, and media.This stored cache data helps in improving the user experience. With the help of cached data,
+            our web browser opens web page quickly on your next visit to the particuler web page.The cached data can consume the memory of our available storage on the device.
+                  The files will remain in the chache until the user whats to refresh or delete the cache data for free space.
+
+c) What are the critical Permissions and Normal Permissions? What are the examples of each?
+              
+             Normal Permissions: Normal permissions are declared in manifest file and Android grants the permissions by default and no need to ask the runtime permissions.Normal permissions do not directly affect the user’s privacy.
+                      If the application lists a normal permission, then these permissions will be automatically granted by the system upon installation
+                      permission to set the data connection is a normal permission. If an app declares that it needs a normal permission, 
+	              the system automatically grants the permission to the app
+                      example of a normal permission is android.permission.INTERNET,ACCESS_LOCATION_EXTRA_COMMANDSACCESS_NETWORK_STATEACCESS_NOTIFICATION_POLICY,BLUETOOTH
+            
+             Critical Permissions: Critical permissions are also declared in manifest file,from Android 6.0 only critical permissions are checked at runtime.these give an application access to the user’s private data or affect the system and other apps.
+                     If we list a criticalpermission in manifest, then the user has to explicitly give permission to your application.  
+                     the ability to read the user's contacts is a dangerous permission. If an app declares that it needs a dangerous permission, 
+		     the user has to explicitly grant the permission to the app. 
+                     example of a dangerous permission is CAMERA,READ_CONTACTS,ADD_VOICEMAIL,USE_SIP,PROCESS_OUTGOING_CALLS
